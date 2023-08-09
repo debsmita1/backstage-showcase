@@ -1,0 +1,8 @@
+appId: 373266
+clientId: Iv1.af0eac0f9627ff33
+clientSecret: 36ad7f9662c2db5f0edc40fbf30a5c2b0a7ab295
+webhookSecret: webhook secret
+privateKey: |
+  -----BEGIN RSA PRIVATE KEY-----
+  SHA256:4qYbx+ZYcUAhp0osKdvJV1LzTRj79DkQQyRUTa4u2KM=
+  -----END RSA PRIVATE KEY-----
