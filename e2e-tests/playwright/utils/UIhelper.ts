@@ -121,7 +121,10 @@ export class UIhelper {
     }
   }
 
-  async verifyColumnHeading(rowTexts: string[] | RegExp[], exact = true) {
+  async verifyColumnHeading(
+    rowTexts: string[] | RegExp[],
+    exact: boolean = true,
+  ) {
     for (const rowText of rowTexts) {
       const rowLocator = this.page
         .locator(`tr>th`)
